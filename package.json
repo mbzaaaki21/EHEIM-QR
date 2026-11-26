@@ -1,0 +1,22 @@
+{
+  "name": "eheim-qr-attendance",
+  "version": "1.0.0",
+  "description": "Gestion des présences par QR code (étudiants / professeurs) avec export Excel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "mobile:sync": "npx cap sync",
+    "mobile:android": "npx cap open android",
+    "mobile:ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.3"
+  }
+}

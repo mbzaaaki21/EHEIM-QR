@@ -1,0 +1,9 @@
+{
+  "appId": "ma.eheim.attendance",
+  "appName": "EHEIM Présences",
+  "webDir": "public",
+  "server": {
+    "url": "https://REMPLACER-PAR-LE-DOMAINE-EHEIM",
+    "cleartext": false
+  }
+}
